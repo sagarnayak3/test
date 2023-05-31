@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.re.twinliteTest.VerifyTheAdminCanSeeListOfApartmentDetailsOnClickingRoomsForRentButtonTest">
+        <methods>
+          <include name="config_AM"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="VerifyTheAdminCanSeeListOfApartmentDetailsOnClickingRoomsForRentButtonTest"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- com.re.twinliteTest.VerifyTheAdminCanSeeListOfApartmentDetailsOnClickingRoomsForRentButtonTest -->
+      <class name="com.re.twinliteTest.VerifyThatAdminEditTheDetailsOfTheRegisteredPropertyTest">
+        <methods>
+          <include name="config_AM"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="VerifyThatAdminEditTheDetailsOfTheRegisteredPropertyTest"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- com.re.twinliteTest.VerifyThatAdminEditTheDetailsOfTheRegisteredPropertyTest -->
+      <class name="com.re.twinliteTest.VerifyThatUserCanEditTheRegisteredPropertyTest">
+        <methods>
+          <include name="config_AM"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="VerifyThatUserCanEditTheRegisteredPropertyTest"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- com.re.twinliteTest.VerifyThatUserCanEditTheRegisteredPropertyTest -->
+      <class name="com.re.twinliteTest.VerifyThatAdminCanFileAComplaintForTheRegisteredPropertyTest">
+        <methods>
+          <include name="config_AM"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="VerifyThatAdminCanFileAComplaintForTheRegisteredPropertyTest"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- com.re.twinliteTest.VerifyThatAdminCanFileAComplaintForTheRegisteredPropertyTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
